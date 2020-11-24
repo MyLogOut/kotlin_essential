@@ -1,4 +1,4 @@
-package main.kotlin.chapter2._02_01
+package main.kotlin.chapter2DataTypes._02_01
 
 fun main() {
     var count: Int=0
@@ -12,4 +12,9 @@ fun main() {
     val myDouble:Double = 98.6
     val myFloat: Float =12.2F
     val alsoDouble = 101.5
+
+    val asInt = alsoDouble.toInt()
+    val asFloat = myLong.toFloat()
+
+    val maxInt = 2_147_483_648
 }
